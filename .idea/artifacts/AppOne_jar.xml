@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AppOne:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AppOne_jar</output-path>
+    <root id="archive" name="AppOne.jar">
+      <element id="module-output" name="AppOne" />
+    </root>
+  </artifact>
+</component>

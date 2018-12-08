@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #434343;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ApplicationONE.Controller">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="200.0" prefHeight="186.0" prefWidth="672.0" style="-fx-background-color: #e8e8e8;">
+         <children>
+            <TextArea fx:id="statusOutput" editable="false" layoutX="5.0" layoutY="5.0" prefHeight="176.0" prefWidth="662.0" promptText="File formatting progress" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="48.0" prefWidth="510.0" style="-fx-background-color: #e8e8e8;">
+         <children>
+            <TextField fx:id="filesPath" editable="false" layoutX="5.0" layoutY="5.0" prefHeight="38.0" prefWidth="500.0" promptText="No path selected" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="76.0" prefHeight="48.0" prefWidth="672.0">
+         <children>
+            <ComboBox fx:id="formatType" prefHeight="48.0" prefWidth="672.0" promptText="Choose type of formatting" visibleRowCount="5" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="runFileFormatter" disable="true" layoutX="14.0" layoutY="138.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="672.0" text="FORMAT FILES">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="setPath" layoutX="538.0" layoutY="14.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="148.0" text="SET PATH">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
